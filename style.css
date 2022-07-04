@@ -33,7 +33,8 @@ h1{
 }
 .yellow-button{
     padding: 10px 40px;
-    background-color: orange;
+    
+    background-image: linear-gradient(orange, tomato);
     color: white;
     border: none;
     border-radius: 40px;
@@ -101,6 +102,9 @@ footer{
     padding-bottom: 50px;
     background-color: black;
 }
-footer h3,p{
+footer h3{
+    color: white;
+}
+footer p{
     color: white;
 }
